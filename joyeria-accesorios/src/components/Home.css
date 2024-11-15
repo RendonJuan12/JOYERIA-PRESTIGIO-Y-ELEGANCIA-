@@ -1,0 +1,109 @@
+/* Configuración general del fondo y color del texto */
+body {
+  background-color: #1a1a1a; /* Fondo oscuro para resaltar los tonos de oro y diamante */
+  color: #e6e6e6; /* Color de texto claro para legibilidad */
+  font-family: Arial, sans-serif;
+}
+
+/* Colores dorados y plateados para los títulos y encabezados */
+h1, h2, h3 {
+  color: #ffd700; /* Color dorado para los títulos principales */
+  text-shadow: 1px 1px 4px rgba(255, 215, 0, 0.6); /* Efecto de brillo dorado */
+}
+
+a {
+  color: #b0c4de; /* Color azul claro que evoca un tono de diamante */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffd700; /* Dorado en hover para simular un toque de lujo */
+}
+
+/* Estilo de "cajón" para las secciones individuales */
+.products .product,
+.promociones-container .promotion-item,
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo de la sección de contacto con fondo oscuro y detalles dorados */
+.contacto-container {
+  background-color: #2e2e2e; /* Fondo oscuro de contraste */
+  color: #ffd700; /* Texto en color dorado */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2); /* Sombra con tono dorado */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  max-width: 200px;
+  margin: 1rem auto;
+}
+
+.contacto-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 215, 0, 0.3); /* Sombra dorada más intensa al hacer hover */
+}
+
+/* Estilo uniforme para las imágenes en contacto, productos y promociones */
+.contacto-container img,
+.products .product img,
+.promociones-container .promotion-item img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 2px solid #ffd700; /* Borde dorado para las imágenes */
+}
+
+/* Botones dorados con estilo de diamante */
+button {
+  background-color: #ffd700; /* Color de fondo dorado */
+  color: #1a1a1a; /* Texto oscuro para contraste */
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(255, 215, 0, 0.4); /* Sombra dorada */
+}
+
+button:hover {
+  background-color: #b8860b; /* Tono dorado más oscuro al pasar el cursor */
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(255, 215, 0, 0.6);
+}
+
+/* Estilo para secciones de productos y promociones */
+.products, .promociones-container {
+  background-color: #2e2e2e; /* Fondo oscuro */
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra clara tipo diamante */
+}
+
+/* Estilo para el texto del footer */
+footer {
+  background-color: #1a1a1a; /* Fondo oscuro para el footer */
+  color: #ffd700; /* Texto en color dorado */
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 7.2rem; /* Aumenta el tamaño de fuente */
+  text-shadow: 1px 1px 4px rgba(255, 215, 0, 0.6); /* Brillo dorado */
+  margin-top: 2rem;
+  box-shadow: 0 -2px 8px rgba(255, 215, 0, 0.2); /* Sombra dorada en el borde superior */
+}
+
+/* Separación y espacio para cada elemento de contenido */
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+}

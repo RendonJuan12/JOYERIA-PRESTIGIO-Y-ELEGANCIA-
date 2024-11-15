@@ -1,0 +1,47 @@
+/* src/components/Contacto.css */
+
+.contacto-container {
+  padding: 2rem; /* Consistent padding */
+  color: yellow;
+  max-width: 800px; /* Limit the width for better presentation */
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center;
+}
+
+.contacto-container p {
+  margin: 1rem 0; /* Consistent spacing */
+  font-size: 1.2rem; /* Adjust font size for readability */
+  line-height: 1.6; /* Increase line-height for better text readability */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .contacto-container {
+    padding: 1.5rem; /* Adjust padding on smaller screens */
+  }
+
+  .contacto-container p {
+    font-size: 1.1rem; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .contacto-container {
+    padding: 1rem; /* Further adjust padding for very small screens */
+  }
+
+  .contacto-container p {
+    font-size: 1rem; /* Smaller font size for mobile screens */
+  }
+}
+
+/* New style for footer */
+footer {
+  padding: 1rem;
+  background-color: #333;
+  color: yellow;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}

@@ -1,0 +1,55 @@
+/* src/components/Promociones.css */
+
+.promociones-container {
+  padding: 2rem;
+}
+
+.promotion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.promotion-item {
+  background-color: #444;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: yellow;
+  text-align: center;
+  transition: transform 0.3s ease; /* Añade una transición suave */
+}
+
+.promotion-item:hover {
+  transform: scale(1.05); /* Aumenta el tamaño del elemento un 5% */
+}
+
+.promotion-item h2 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.promotion-item p {
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .promotion-item {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .promociones-container {
+    padding: 1.5rem;
+  }
+
+  .promotion-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .promotion-item p {
+    font-size: 1rem;
+  }
+}

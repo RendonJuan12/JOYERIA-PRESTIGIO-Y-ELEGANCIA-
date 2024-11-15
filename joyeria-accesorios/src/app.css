@@ -1,0 +1,80 @@
+/* src/App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: yellow;
+  background-color: black;
+}
+
+header {
+  padding: 20px;
+  background-color: #333;
+}
+
+header h1 {
+  margin: 0;
+  color: yellow;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: yellow;
+  font-size: 0.8em;
+}
+
+/* Contenedor para el logo y el título */
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo del logo */
+.logo-img {
+  width: 60px; /* Aumentar el tamaño del logo */
+  height: auto;
+  margin-right: 1rem;
+  border: 3px solid yellow;
+  border-radius: 50%;
+  padding: 5px;
+  animation: logo-movement 5s infinite;
+}
+
+/* Centrar el título */
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* Animación para el logo */
+@keyframes logo-movement {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  50% {
+    transform: scale(1.5) translateX(10px); /* Aumenta la escala más que antes */
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
